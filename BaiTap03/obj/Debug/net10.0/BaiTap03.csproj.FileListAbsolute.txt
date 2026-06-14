@@ -1,0 +1,14 @@
+D:\Note-LT\HN-AAu\NguyenMinhHai\BaiTapCsharp\BaiTap03\bin\Debug\net10.0\BaiTap03.exe
+D:\Note-LT\HN-AAu\NguyenMinhHai\BaiTapCsharp\BaiTap03\bin\Debug\net10.0\BaiTap03.deps.json
+D:\Note-LT\HN-AAu\NguyenMinhHai\BaiTapCsharp\BaiTap03\bin\Debug\net10.0\BaiTap03.runtimeconfig.json
+D:\Note-LT\HN-AAu\NguyenMinhHai\BaiTapCsharp\BaiTap03\bin\Debug\net10.0\BaiTap03.dll
+D:\Note-LT\HN-AAu\NguyenMinhHai\BaiTapCsharp\BaiTap03\bin\Debug\net10.0\BaiTap03.pdb
+D:\Note-LT\HN-AAu\NguyenMinhHai\BaiTapCsharp\BaiTap03\obj\Debug\net10.0\BaiTap03.GeneratedMSBuildEditorConfig.editorconfig
+D:\Note-LT\HN-AAu\NguyenMinhHai\BaiTapCsharp\BaiTap03\obj\Debug\net10.0\BaiTap03.AssemblyInfoInputs.cache
+D:\Note-LT\HN-AAu\NguyenMinhHai\BaiTapCsharp\BaiTap03\obj\Debug\net10.0\BaiTap03.AssemblyInfo.cs
+D:\Note-LT\HN-AAu\NguyenMinhHai\BaiTapCsharp\BaiTap03\obj\Debug\net10.0\BaiTap03.csproj.CoreCompileInputs.cache
+D:\Note-LT\HN-AAu\NguyenMinhHai\BaiTapCsharp\BaiTap03\obj\Debug\net10.0\BaiTap03.dll
+D:\Note-LT\HN-AAu\NguyenMinhHai\BaiTapCsharp\BaiTap03\obj\Debug\net10.0\refint\BaiTap03.dll
+D:\Note-LT\HN-AAu\NguyenMinhHai\BaiTapCsharp\BaiTap03\obj\Debug\net10.0\BaiTap03.pdb
+D:\Note-LT\HN-AAu\NguyenMinhHai\BaiTapCsharp\BaiTap03\obj\Debug\net10.0\BaiTap03.genruntimeconfig.cache
+D:\Note-LT\HN-AAu\NguyenMinhHai\BaiTapCsharp\BaiTap03\obj\Debug\net10.0\ref\BaiTap03.dll
