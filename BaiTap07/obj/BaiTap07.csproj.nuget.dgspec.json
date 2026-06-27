@@ -1,31 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "D:\\NguyenMinhHai\\BaiTapCsharp\\BaiTap07\\BaiTap07.csproj": {}
+    "d:\\Note-LT\\HN-AAu\\NguyenMinhHai\\BaiTapCsharp\\BaiTap07\\BaiTap07.csproj": {}
   },
   "projects": {
-    "D:\\NguyenMinhHai\\BaiTapCsharp\\BaiTap07\\BaiTap07.csproj": {
+    "d:\\Note-LT\\HN-AAu\\NguyenMinhHai\\BaiTapCsharp\\BaiTap07\\BaiTap07.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NguyenMinhHai\\BaiTapCsharp\\BaiTap07\\BaiTap07.csproj",
+        "projectUniqueName": "d:\\Note-LT\\HN-AAu\\NguyenMinhHai\\BaiTapCsharp\\BaiTap07\\BaiTap07.csproj",
         "projectName": "BaiTap07",
-        "projectPath": "D:\\NguyenMinhHai\\BaiTapCsharp\\BaiTap07\\BaiTap07.csproj",
-        "packagesPath": "C:\\Users\\Q3-TK-009\\.nuget\\packages\\",
-        "outputPath": "D:\\NguyenMinhHai\\BaiTapCsharp\\BaiTap07\\obj\\",
+        "projectPath": "d:\\Note-LT\\HN-AAu\\NguyenMinhHai\\BaiTapCsharp\\BaiTap07\\BaiTap07.csproj",
+        "packagesPath": "C:\\Users\\A315\\.nuget\\packages\\",
+        "outputPath": "d:\\Note-LT\\HN-AAu\\NguyenMinhHai\\BaiTapCsharp\\BaiTap07\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Q3-TK-009\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\A315\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -40,10 +39,11 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "imports": [
             "net461",
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
