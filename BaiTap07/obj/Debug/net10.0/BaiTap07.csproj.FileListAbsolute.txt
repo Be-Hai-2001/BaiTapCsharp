@@ -1,0 +1,15 @@
+D:\NguyenMinhHai\BaiTapCsharp\BaiTap07\bin\Debug\net10.0\BaiTap07.exe
+D:\NguyenMinhHai\BaiTapCsharp\BaiTap07\bin\Debug\net10.0\BaiTap07.deps.json
+D:\NguyenMinhHai\BaiTapCsharp\BaiTap07\bin\Debug\net10.0\BaiTap07.runtimeconfig.json
+D:\NguyenMinhHai\BaiTapCsharp\BaiTap07\bin\Debug\net10.0\BaiTap07.dll
+D:\NguyenMinhHai\BaiTapCsharp\BaiTap07\bin\Debug\net10.0\BaiTap07.pdb
+D:\NguyenMinhHai\BaiTapCsharp\BaiTap07\obj\Debug\net10.0\BaiTap07.GeneratedMSBuildEditorConfig.editorconfig
+D:\NguyenMinhHai\BaiTapCsharp\BaiTap07\obj\Debug\net10.0\BaiTap07.AssemblyInfoInputs.cache
+D:\NguyenMinhHai\BaiTapCsharp\BaiTap07\obj\Debug\net10.0\BaiTap07.AssemblyInfo.cs
+D:\NguyenMinhHai\BaiTapCsharp\BaiTap07\obj\Debug\net10.0\BaiTap07.csproj.CoreCompileInputs.cache
+D:\NguyenMinhHai\BaiTapCsharp\BaiTap07\obj\Debug\net10.0\BaiTap07.sourcelink.json
+D:\NguyenMinhHai\BaiTapCsharp\BaiTap07\obj\Debug\net10.0\BaiTap07.dll
+D:\NguyenMinhHai\BaiTapCsharp\BaiTap07\obj\Debug\net10.0\refint\BaiTap07.dll
+D:\NguyenMinhHai\BaiTapCsharp\BaiTap07\obj\Debug\net10.0\BaiTap07.pdb
+D:\NguyenMinhHai\BaiTapCsharp\BaiTap07\obj\Debug\net10.0\BaiTap07.genruntimeconfig.cache
+D:\NguyenMinhHai\BaiTapCsharp\BaiTap07\obj\Debug\net10.0\ref\BaiTap07.dll
