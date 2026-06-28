@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Note-LT\\HN-AAu\\NguyenMinhHai\\BaiTapCsharp\\BaiTap07\\BaiTap07.csproj": {}
+    "D:\\Note-LT\\HN-AAu\\NguyenMinhHai\\BaiTapCsharp\\BaiTap07\\BaiTap07.csproj": {}
   },
   "projects": {
-    "d:\\Note-LT\\HN-AAu\\NguyenMinhHai\\BaiTapCsharp\\BaiTap07\\BaiTap07.csproj": {
+    "D:\\Note-LT\\HN-AAu\\NguyenMinhHai\\BaiTapCsharp\\BaiTap07\\BaiTap07.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Note-LT\\HN-AAu\\NguyenMinhHai\\BaiTapCsharp\\BaiTap07\\BaiTap07.csproj",
+        "projectUniqueName": "D:\\Note-LT\\HN-AAu\\NguyenMinhHai\\BaiTapCsharp\\BaiTap07\\BaiTap07.csproj",
         "projectName": "BaiTap07",
-        "projectPath": "d:\\Note-LT\\HN-AAu\\NguyenMinhHai\\BaiTapCsharp\\BaiTap07\\BaiTap07.csproj",
+        "projectPath": "D:\\Note-LT\\HN-AAu\\NguyenMinhHai\\BaiTapCsharp\\BaiTap07\\BaiTap07.csproj",
         "packagesPath": "C:\\Users\\A315\\.nuget\\packages\\",
-        "outputPath": "d:\\Note-LT\\HN-AAu\\NguyenMinhHai\\BaiTapCsharp\\BaiTap07\\obj\\",
+        "outputPath": "D:\\Note-LT\\HN-AAu\\NguyenMinhHai\\BaiTapCsharp\\BaiTap07\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\A315\\AppData\\Roaming\\NuGet\\NuGet.Config"
