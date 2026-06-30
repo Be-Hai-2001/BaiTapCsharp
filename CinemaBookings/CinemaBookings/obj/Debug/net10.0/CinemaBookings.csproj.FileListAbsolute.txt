@@ -1,0 +1,15 @@
+D:\Note-LT\HN-AAu\NguyenMinhHai\BaiTapCsharp\CinemaBookings\CinemaBookings\obj\Debug\net10.0\CinemaBookings.GeneratedMSBuildEditorConfig.editorconfig
+D:\Note-LT\HN-AAu\NguyenMinhHai\BaiTapCsharp\CinemaBookings\CinemaBookings\obj\Debug\net10.0\CinemaBookings.AssemblyInfoInputs.cache
+D:\Note-LT\HN-AAu\NguyenMinhHai\BaiTapCsharp\CinemaBookings\CinemaBookings\obj\Debug\net10.0\CinemaBookings.AssemblyInfo.cs
+D:\Note-LT\HN-AAu\NguyenMinhHai\BaiTapCsharp\CinemaBookings\CinemaBookings\obj\Debug\net10.0\CinemaBookings.csproj.CoreCompileInputs.cache
+D:\Note-LT\HN-AAu\NguyenMinhHai\BaiTapCsharp\CinemaBookings\CinemaBookings\obj\Debug\net10.0\CinemaBookings.sourcelink.json
+D:\Note-LT\HN-AAu\NguyenMinhHai\BaiTapCsharp\CinemaBookings\CinemaBookings\bin\Debug\net10.0\CinemaBookings.exe
+D:\Note-LT\HN-AAu\NguyenMinhHai\BaiTapCsharp\CinemaBookings\CinemaBookings\bin\Debug\net10.0\CinemaBookings.deps.json
+D:\Note-LT\HN-AAu\NguyenMinhHai\BaiTapCsharp\CinemaBookings\CinemaBookings\bin\Debug\net10.0\CinemaBookings.runtimeconfig.json
+D:\Note-LT\HN-AAu\NguyenMinhHai\BaiTapCsharp\CinemaBookings\CinemaBookings\bin\Debug\net10.0\CinemaBookings.dll
+D:\Note-LT\HN-AAu\NguyenMinhHai\BaiTapCsharp\CinemaBookings\CinemaBookings\bin\Debug\net10.0\CinemaBookings.pdb
+D:\Note-LT\HN-AAu\NguyenMinhHai\BaiTapCsharp\CinemaBookings\CinemaBookings\obj\Debug\net10.0\CinemaBookings.dll
+D:\Note-LT\HN-AAu\NguyenMinhHai\BaiTapCsharp\CinemaBookings\CinemaBookings\obj\Debug\net10.0\refint\CinemaBookings.dll
+D:\Note-LT\HN-AAu\NguyenMinhHai\BaiTapCsharp\CinemaBookings\CinemaBookings\obj\Debug\net10.0\CinemaBookings.pdb
+D:\Note-LT\HN-AAu\NguyenMinhHai\BaiTapCsharp\CinemaBookings\CinemaBookings\obj\Debug\net10.0\CinemaBookings.genruntimeconfig.cache
+D:\Note-LT\HN-AAu\NguyenMinhHai\BaiTapCsharp\CinemaBookings\CinemaBookings\obj\Debug\net10.0\ref\CinemaBookings.dll
