@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\NguyenMinhHai\\BaiTapCsharp\\CinemaBookings\\CinemaBookings\\CinemaBookings.csproj": {}
+    "D:\\NguyenMinhHai\\BaiTapCsharp\\BaiTap08\\BaiTap08.csproj": {}
   },
   "projects": {
-    "d:\\NguyenMinhHai\\BaiTapCsharp\\CinemaBookings\\CinemaBookings\\CinemaBookings.csproj": {
+    "D:\\NguyenMinhHai\\BaiTapCsharp\\BaiTap08\\BaiTap08.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\NguyenMinhHai\\BaiTapCsharp\\CinemaBookings\\CinemaBookings\\CinemaBookings.csproj",
-        "projectName": "CinemaBookings",
-        "projectPath": "d:\\NguyenMinhHai\\BaiTapCsharp\\CinemaBookings\\CinemaBookings\\CinemaBookings.csproj",
+        "projectUniqueName": "D:\\NguyenMinhHai\\BaiTapCsharp\\BaiTap08\\BaiTap08.csproj",
+        "projectName": "BaiTap08",
+        "projectPath": "D:\\NguyenMinhHai\\BaiTapCsharp\\BaiTap08\\BaiTap08.csproj",
         "packagesPath": "C:\\Users\\Q3-TK-009\\.nuget\\packages\\",
-        "outputPath": "d:\\NguyenMinhHai\\BaiTapCsharp\\CinemaBookings\\CinemaBookings\\obj\\",
+        "outputPath": "D:\\NguyenMinhHai\\BaiTapCsharp\\BaiTap08\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Q3-TK-009\\AppData\\Roaming\\NuGet\\NuGet.Config",
