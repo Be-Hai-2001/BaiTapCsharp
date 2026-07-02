@@ -98,20 +98,59 @@ struct NhanVien
     }
 }
 
+// class Program
+// {
+//     static void TangLuong(NhanVien nv)
+//     {
+//         nv.LuongCoBan += 999;
+//         Console.WriteLine($"Lương sau khi gọi trong hàm TangLuong: {nv.LuongCoBan}");
+//     }
+//     static void Main()
+//     {
+//         NhanVien nv1 = new("Nguyễn Minh Hải", 10000);
+//         TangLuong(nv1);
+
+//         // Mức lương vẫn là 5000 do Struct truyền bản sao, không ảnh hưởng biến gốc
+//         Console.WriteLine($"Lương sau khi gọi hàm TangLuong trong main: {nv1.LuongCoBan}");
+//     }
+// }
+#endregion
+
+#region 
+// Khai báo kiểu dữ liệu mới tên là SinhVien
+struct SinhVien
+{
+    // Danh sách các biến thành phần (phải có public để bên ngoài truy cập được)
+    public int MaSo;
+    public string HoTen;
+    public double DiemToan;
+    public double DiemLy;
+    public double DiemVan;
+    public SinhVien(int maSo, string hoTen, double diemToan, double diemLy, double diemVan)
+    {
+        MaSo = maSo;
+        HoTen = hoTen;
+        DiemToan = diemToan;
+        DiemLy = diemLy;
+        DiemVan = diemVan;
+    }
+}
 class Program
 {
-    static void TangLuong(NhanVien nv)
-    {
-        nv.LuongCoBan += 999;
-        Console.WriteLine($"Lương sau khi gọi trong hàm TangLuong: {nv.LuongCoBan}");
-    }
     static void Main()
     {
-        NhanVien nv1 = new("Nguyễn Minh Hải", 10000);
-        TangLuong(nv1);
 
-        // Mức lương vẫn là 5000 do Struct truyền bản sao, không ảnh hưởng biến gốc
-        Console.WriteLine($"Lương sau khi gọi hàm TangLuong trong main: {nv1.LuongCoBan}");
+        SinhVien sv1 = new(0306201123, "Nguyễn Minh Hải", 8, 8.8, 9.5);
+        SinhVien sv2 = new(0306201124, "Bùi Gia Huy", 7, 7.5, 8.5);
+
+        SinhVien[] danhSachSinhVien = new SinhVien[] { sv1, sv2 };
+
+        foreach (SinhVien item in danhSachSinhVien)
+        {
+            double diemTrungBinh = (item.DiemToan + item.DiemLy + item.DiemVan) / 3;
+            Console.WriteLine($"Sinh viên {item.HoTen} có điểm trung bình là: {diemTrungBinh}");
+        }
+
     }
 }
 #endregion
