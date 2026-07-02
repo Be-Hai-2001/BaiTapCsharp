@@ -23,6 +23,7 @@
 // }
 #endregion
 
+
 #region Bài 02 - Sử dụng nhiều khối try-catch
 // class Program
 // {
@@ -65,6 +66,7 @@
 //     }
 // }
 #endregion
+
 
 #region Bài 03 - Ứng dụng khối finally
 class KetNoiCSDL
@@ -110,24 +112,83 @@ class KetNoiCSDL
 
 
 #region Bài 04 - Sử dụng từ khóa throw
-class Program
+// class Program
+// {
+//     static int TinhCanBacHai(int so)
+//     {
+//         if (so < 0)
+//             throw new ArgumentException("Không thể tính căn bậc hai của số âm!");
+//         return (int)Math.Sqrt(so);
+//     }
+//     static void Main()
+//     {
+//         Console.WriteLine("---- Tính căn bậc hai của một số -----");
+//         try
+//         {
+//             Console.Write("Nhập vào giá trị: ");
+//             int giaTri = int.Parse(Console.ReadLine());
+//             int ketQua = TinhCanBacHai(giaTri);
+//             Console.WriteLine($"Căn bậc hai của {giaTri} là: {ketQua}");
+//         }
+//         catch (FormatException)
+//         {
+//             Console.WriteLine("Lỗi: Định dạng không hợp lệ. Vui lòng nhập một số nguyên.");
+//         }
+//         catch (Exception e)
+//         {
+//             Console.WriteLine($"Lỗi: {e.Message}");
+//         }
+//     }
+// }
+#endregion
+
+
+#region Bài 05 - Tạo và sử dụng Custom Exception
+public class SoDuKhongDuException : Exception
 {
-    static double TinhCanBacHai(double so)
+    public SoDuKhongDuException(string message) : base(message) { }
+}
+
+public class TaiKhoanNganHang
+{
+    public static double SoDu { get; private set; }
+
+    public static double RutTien(double soTien)
     {
-        if (so < 0)
+        SoDu = 120000;
+
+        if (soTien > SoDu)
         {
-            throw new ArgumentException("Không thể tính căn bậc hai của số âm!");
+            throw new SoDuKhongDuException("Số dư không đủ để thực hiện giao dịch.");
         }
-        return Math.Sqrt(so);
+        SoDu -= soTien;
+        return SoDu;
     }
+}
+
+public class Program
+{
     static void Main()
     {
         try
         {
-            Console.Write("Nhập vào");
+            Console.Write("Nhập số tiền bạn muốn rút: ");
+            double soTien = double.Parse(Console.ReadLine());
+            TaiKhoanNganHang.RutTien(soTien);
+
+        }
+        catch (SoDuKhongDuException e)
+        {
+            Console.WriteLine($"Lỗi: {e.Message}");
+        }
+        catch (FormatException)
+        {
+            Console.WriteLine("Lỗi: Định dạng không hợp lệ. Vui lòng nhập một số.");
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine($"Lỗi: {e.Message}");
         }
     }
 }
 #endregion
-
-
