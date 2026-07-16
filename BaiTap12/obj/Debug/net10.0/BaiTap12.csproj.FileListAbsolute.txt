@@ -1,0 +1,15 @@
+D:\NguyenMinhHai\BaiTapCsharp\BaiTap12\bin\Debug\net10.0\BaiTap12.exe
+D:\NguyenMinhHai\BaiTapCsharp\BaiTap12\bin\Debug\net10.0\BaiTap12.deps.json
+D:\NguyenMinhHai\BaiTapCsharp\BaiTap12\bin\Debug\net10.0\BaiTap12.runtimeconfig.json
+D:\NguyenMinhHai\BaiTapCsharp\BaiTap12\bin\Debug\net10.0\BaiTap12.dll
+D:\NguyenMinhHai\BaiTapCsharp\BaiTap12\bin\Debug\net10.0\BaiTap12.pdb
+D:\NguyenMinhHai\BaiTapCsharp\BaiTap12\obj\Debug\net10.0\BaiTap12.GeneratedMSBuildEditorConfig.editorconfig
+D:\NguyenMinhHai\BaiTapCsharp\BaiTap12\obj\Debug\net10.0\BaiTap12.AssemblyInfoInputs.cache
+D:\NguyenMinhHai\BaiTapCsharp\BaiTap12\obj\Debug\net10.0\BaiTap12.AssemblyInfo.cs
+D:\NguyenMinhHai\BaiTapCsharp\BaiTap12\obj\Debug\net10.0\BaiTap12.csproj.CoreCompileInputs.cache
+D:\NguyenMinhHai\BaiTapCsharp\BaiTap12\obj\Debug\net10.0\BaiTap12.sourcelink.json
+D:\NguyenMinhHai\BaiTapCsharp\BaiTap12\obj\Debug\net10.0\BaiTap12.dll
+D:\NguyenMinhHai\BaiTapCsharp\BaiTap12\obj\Debug\net10.0\refint\BaiTap12.dll
+D:\NguyenMinhHai\BaiTapCsharp\BaiTap12\obj\Debug\net10.0\BaiTap12.pdb
+D:\NguyenMinhHai\BaiTapCsharp\BaiTap12\obj\Debug\net10.0\BaiTap12.genruntimeconfig.cache
+D:\NguyenMinhHai\BaiTapCsharp\BaiTap12\obj\Debug\net10.0\ref\BaiTap12.dll
