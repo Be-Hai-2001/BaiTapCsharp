@@ -1,0 +1,101 @@
+[
+  {
+    "MovieUuid": "51efaff4-7607-4819-a4b5-359611345042",
+    "Genre": null,
+    "GenreUuid": "b9d10780-516a-40b3-abdf-89877073bf11",
+    "MovieName": "L\u1EA7u Ch\u00FA H\u1ECFa",
+    "AgeCustomer": 13,
+    "Duration": 120,
+    "Language": 1,
+    "ReleaseDate": "23/09/2005",
+    "Status": -1
+  },
+  {
+    "MovieUuid": "51efaff4-7607-4819-a4b5-359611345043",
+    "Genre": null,
+    "GenreUuid": "b9d10780-516a-40b3-abdf-89877073bf63",
+    "MovieName": "Doraemon x\u1EE9 s\u1EDF th\u1EA7n ti\u00EAn",
+    "AgeCustomer": 13,
+    "Duration": 110,
+    "Language": 1,
+    "ReleaseDate": "23/09/2005",
+    "Status": 1
+  },
+  {
+    "MovieUuid": "0caa069c-71c6-4cc4-af36-47cf64ef2244",
+    "Genre": null,
+    "GenreUuid": "b9d10780-516a-40b3-abdf-89877073bf61",
+    "MovieName": "B\u1ED1 Gi\u00E0",
+    "AgeCustomer": 0,
+    "Duration": 90,
+    "Language": 1,
+    "ReleaseDate": "10/07/2026",
+    "Status": -1
+  },
+  {
+    "MovieUuid": "d8ef113a-878b-441a-ad45-0e7a89072208",
+    "Genre": null,
+    "GenreUuid": "b9d10780-516a-40b3-abdf-89877073bf61",
+    "MovieName": "Doraemon x\u1EE9 s\u1EDF th\u1EA7n ti\u00EAn",
+    "AgeCustomer": 13,
+    "Duration": 110,
+    "Language": 1,
+    "ReleaseDate": "23/09/2005",
+    "Status": -1
+  },
+  {
+    "MovieUuid": "fe44a7f3-5c0f-4a80-b783-bd227f376f1d",
+    "Genre": null,
+    "GenreUuid": "b9d10780-516a-40b3-abdf-89877073bf61",
+    "MovieName": "Phim ",
+    "AgeCustomer": 15,
+    "Duration": 120,
+    "Language": 1,
+    "ReleaseDate": "10/07/2026",
+    "Status": -1
+  },
+  {
+    "MovieUuid": "05bc88da-3f51-4e32-a4d0-ff82c77e119c",
+    "Genre": null,
+    "GenreUuid": "b9d10780-516a-40b3-abdf-89877073bf63",
+    "MovieName": "Ti\u00EAn Ngh\u1ECBch",
+    "AgeCustomer": 13,
+    "Duration": 130,
+    "Language": 7,
+    "ReleaseDate": "02/09/2026",
+    "Status": 1
+  },
+  {
+    "MovieUuid": "38daeb82-0e79-4ee8-87b1-c621088e16e2",
+    "Genre": null,
+    "GenreUuid": "b9d10780-516a-40b3-abdf-89877073bf61",
+    "MovieName": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "AgeCustomer": 13,
+    "Duration": 120,
+    "Language": 1,
+    "ReleaseDate": "10/07/2026",
+    "Status": 1
+  },
+  {
+    "MovieUuid": "88a7db10-68c6-4df5-9141-491cdaa04b1f",
+    "Genre": null,
+    "GenreUuid": "b9d10780-516a-40b3-abdf-89877073bf61",
+    "MovieName": "",
+    "AgeCustomer": 13,
+    "Duration": 120,
+    "Language": 1,
+    "ReleaseDate": "10/07/2026",
+    "Status": -1
+  },
+  {
+    "MovieUuid": "f496cf42-e85b-4f0e-96f5-8b97efe500a8",
+    "Genre": null,
+    "GenreUuid": "b9d10780-516a-40b3-abdf-89877073bf63",
+    "MovieName": "101 con ch\u00F3 \u0111\u00F3m",
+    "AgeCustomer": 13,
+    "Duration": 120,
+    "Language": 1,
+    "ReleaseDate": "20/11/2021",
+    "Status": -1
+  }
+]

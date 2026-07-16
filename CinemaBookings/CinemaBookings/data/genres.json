@@ -1,0 +1,17 @@
+[
+    {
+        "GenreUuid" : "b9d10780-516a-40b3-abdf-89877073bf61",
+        "GenreName" : "Hành động",
+        "Status" : 1
+    },
+    {
+        "GenreUuid" : "b9d10780-516a-40b3-abdf-89877073bf11",
+        "GenreName" : "kinh dị",
+        "Status" : 1
+    },
+    {
+        "GenreUuid" : "b9d10780-516a-40b3-abdf-89877073bf63",
+        "GenreName" : "Hoạt hình",
+        "Status" : 1
+    }
+]   

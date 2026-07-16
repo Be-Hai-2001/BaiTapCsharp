@@ -27,7 +27,7 @@ public class Movie
     public LanguageEnum? Language { get; set; }
 
     [Required]
-    public DateTime ReleaseDate { get; set; } // Ngày phát hành
+    public string? ReleaseDate { get; set; } // Ngày phát hành
 
     [Required]
     public StatusEnum? Status { get; set; }

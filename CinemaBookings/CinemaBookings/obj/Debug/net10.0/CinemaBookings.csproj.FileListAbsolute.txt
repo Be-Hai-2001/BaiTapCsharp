@@ -13,3 +13,7 @@ D:\Note-LT\HN-AAu\NguyenMinhHai\BaiTapCsharp\CinemaBookings\CinemaBookings\obj\D
 D:\Note-LT\HN-AAu\NguyenMinhHai\BaiTapCsharp\CinemaBookings\CinemaBookings\obj\Debug\net10.0\CinemaBookings.pdb
 D:\Note-LT\HN-AAu\NguyenMinhHai\BaiTapCsharp\CinemaBookings\CinemaBookings\obj\Debug\net10.0\CinemaBookings.genruntimeconfig.cache
 D:\Note-LT\HN-AAu\NguyenMinhHai\BaiTapCsharp\CinemaBookings\CinemaBookings\obj\Debug\net10.0\ref\CinemaBookings.dll
+D:\Note-LT\HN-AAu\NguyenMinhHai\BaiTapCsharp\CinemaBookings\CinemaBookings\bin\Debug\net10.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Note-LT\HN-AAu\NguyenMinhHai\BaiTapCsharp\CinemaBookings\CinemaBookings\bin\Debug\net10.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Note-LT\HN-AAu\NguyenMinhHai\BaiTapCsharp\CinemaBookings\CinemaBookings\obj\Debug\net10.0\CinemaBookings.csproj.AssemblyReference.cache
+D:\Note-LT\HN-AAu\NguyenMinhHai\BaiTapCsharp\CinemaBookings\CinemaBookings\obj\Debug\net10.0\CinemaBo.62A2A41C.Up2Date

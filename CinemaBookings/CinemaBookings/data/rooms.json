@@ -1,0 +1,26 @@
+[
+    {
+        "RoomUuid" : "e9d10780-516a-40b3-abdf-89877073bf12",
+        "RoomName" : "G-01",
+        "TotalSeats" : 30,
+        "Status" : 1
+    },
+    {
+        "RoomUuid" : "e9d10780-516a-40b3-abdf-89877073bf13",
+        "RoomName" : "G-02",
+        "TotalSeats" : 30,
+        "Status" : 1
+    },
+    {
+        "RoomUuid" : "e9d10780-516a-40b3-abdf-89877073bf14",
+        "RoomName" : "L1-01",
+        "TotalSeats" : 30,
+        "Status" : 1
+    },
+    {
+        "RoomUuid" : "e9d10780-516a-40b3-abdf-89877073bf15",
+        "RoomName" : "L1-02",
+        "TotalSeats" : 30,
+        "Status" : 1
+    }
+]

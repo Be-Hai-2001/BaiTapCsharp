@@ -1,5 +1,5 @@
-using System;
 using System.Text.Json;
+namespace CinemaBookings.Views.Admin.Layout;
 
 public static class DebugExtensions
 {

@@ -1,4 +1,7 @@
 
+using CinemaBooking.Presentation.Views.Admin.Layout;
+using CinemaBooking.Presentation.Views.Layout;
+using CinemaBookings.Views.Admin.Layout;
 using CinemeBooking.Views.Layout;
 
 namespace CinemeBooking.Views;
@@ -6,7 +9,7 @@ namespace CinemeBooking.Views;
 // Class hiển thị ra thanh menu chọn lựa các chức năng của ứng dụng
 public class MainMenuView
 {
-    public static void Show()
+    public static async Task Show(IServiceProvider provider)
     {
         while (true)
         {
@@ -30,7 +33,7 @@ public class MainMenuView
                     ShowCustomerMenu();
                     break;
                 case "2":
-                    ShowAdminMenu();
+                    await ShowAdminMenu(provider);
                     break;
                 case "0":
                     Console.WriteLine("Cảm ơn bạn đã sử dụng dịch vụ!");
@@ -96,52 +99,77 @@ public class MainMenuView
     }
 
     // ================= MENU ADMIN =================
-    private static void ShowAdminMenu()
+    public static async Task ShowAdminMenu(IServiceProvider provider)
     {
+
         while (true)
         {
             Console.Clear();
-            // Gọi class hiển thị layout menu Admin
-            MenuLayout.FrameMenu(
-                ConsoleColor.Yellow,
-                "HỆ THỐNG QUẢN TRỊ (ADMIN)",
-                [
-                    "1. Quản lý Phim & Thể loại (CRUD Movie/Genre)",
-                    "2. Quản lý Lịch chiếu & Phòng chiếu (Showtime/Room)",
-                    "3. Quản lý Ghế ngồi (Seat/SeatType)",
-                    "4. Quản lý Đồ ăn & Thức uống (Food & Beverage)",
-                    "5. Xem danh sách đặt vé & Doanh thu",
-                    "0. Quay lại Menu chính"
-                ]
-            );
-            string choice = Console.ReadLine() ?? string.Empty;
-            if (choice == "0") break;
 
-            switch (choice)
+            // HEADER
+            UILayout.Header("HỆ THỐNG QUẢN TRỊ (ADMIN)");
+
+            // BODY
+            Console.WriteLine("1. Quản lý Phim & Thể loại (CRUD Movie/Genre)");
+            Console.WriteLine("2. Quản lý Lịch chiếu & Phòng chiếu (Showtime/Room/Seat)");
+            Console.WriteLine("3. Xem danh sách đặt vé & Doanh thu");
+
+            // FOOTER
+
+            Console.WriteLine("");
+            // Lưu lại vị trí con trỏ để nhập
+            int cursorLeft = Console.CursorLeft;
+            int cursorTop = Console.CursorTop;
+
+            Console.WriteLine("");
+            Console.WriteLine("");
+            UILayout.Footer("[ESC]: Quay lại Menu chính");
+
+            // Quay lại vị trí nhập liệu ban đầu để chờ người dùng bấm máy
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
+            Console.SetCursorPosition(cursorLeft, cursorTop);
+            Console.Write("> Mời bạn chọn chức năng: ");
+            Console.ResetColor();
+
+            ConsoleKeyInfo keyInfo = Console.ReadKey(true);
+
+            if (keyInfo.Key == ConsoleKey.Escape)
             {
-                case "1":
-                    Console.WriteLine("\n[Admin] Điều hướng sang trang quản lý Phim...");
-                    break;
-                case "2":
-                    Console.WriteLine("\n[Admin] Điều hướng sang trang quản lý Lịch chiếu...");
-                    break;
-                case "3":
-                    Console.WriteLine("\n[Admin] Điều hướng sang trang quản lý Ghế...");
-                    break;
-                case "4":
-                    Console.WriteLine("\n[Admin] Điều hướng sang trang quản lý Đồ ăn...");
-                    break;
-                case "5":
-                    Console.WriteLine("\n[Admin] Thống kê doanh thu...");
-                    break;
-                default:
-                    Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("Lựa chọn không hợp lệ!");
-                    Console.ResetColor();
-                    break;
+                await Show(provider);
             }
-            Console.WriteLine("\nNhấn phím bất kỳ để tiếp tục...");
-            Console.ReadKey();
+            else
+            {
+                // Quay lại vị trí nhập liệu ban đầu để chờ người dùng bấm máy
+                // string choice = keyInfo.KeyChar.ToString();
+                switch (keyInfo.KeyChar.ToString())
+                {
+                    case "1":
+                        await ShowMovieOrGenre.Show(provider);
+                        DebugExtensions.dd(keyInfo.KeyChar.ToString());
+                        break;
+                    case "2":
+                        await ShowCinema.Show();
+                        // Console.WriteLine("\n[Admin] Điều hướng sang trang quản lý Lịch chiếu...");
+                        break;
+                    case "3":
+                        Console.WriteLine("\n[Admin] Điều hướng sang trang quản lý Ghế...");
+                        break;
+                    case "4":
+                        Console.WriteLine("\n[Admin] Điều hướng sang trang quản lý Đồ ăn...");
+                        break;
+                    case "5":
+                        Console.WriteLine("\n[Admin] Thống kê doanh thu...");
+                        break;
+                    default:
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine("Lựa chọn không hợp lệ!");
+                        Console.ResetColor();
+                        Console.WriteLine("Nhấn bất kì để thử lại...");
+                        Console.ReadKey();
+                        break;
+                }
+            }
+
         }
     }
 }

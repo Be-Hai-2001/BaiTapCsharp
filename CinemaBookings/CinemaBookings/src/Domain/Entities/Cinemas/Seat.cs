@@ -10,11 +10,8 @@ public class Seat
     [Key]
     public string SeatUuid { get; set; } = Guid.NewGuid().ToString();
 
-    [ForeignKey("SeatTypeUuid")]
-    public virtual SeatType? SeatType { get; set; }
-    public string? SeatTypeUuid { get; set; }
+    public SeatTypeEnnum SeatType { get; set; }
 
-    [ForeignKey("RoomUuid")]
     public virtual Room? Room { get; set; }
     public string? RoomUuid { get; set; }
 
@@ -24,7 +21,7 @@ public class Seat
     // [Required]
     public int SeatX { get; set; }
 
-    [Required]
+    // [Required]
     public int SeatY { get; set; }
 
     public StatusEnum? Status { get; set; }
