@@ -1,6 +1,5 @@
-
-using CinemaBooking.Presentation.Controllers;
 using CinemaBooking.Presentation.Views.Admin.Layout;
+using CinemaBooking.Presentation.Controllers;
 using CinemaBooking.Presentation.Views.Layout;
 using CinemeBooking.Domain.Entities.Movies;
 
@@ -16,6 +15,7 @@ public class MovieView
         UPDATE,
         DESTROY
     }
+
     public static async Task List(List<Movie> movies, MovieController movieController, IServiceProvider provider)
     {
         // string formatColumn = "| {0,-3} | {1,-30} | {2,-13} | {3,-10} | {4,-11} |";
@@ -29,7 +29,7 @@ public class MovieView
         while (isRunning)
         {
             // ================== VẼ TOÀN BỘ GIAO DIỆN ================== //
-            Console.Clear();
+            Display.ClearDisplay();
             UILayout.Header("DANH SÁCH PHIM", tototalTableWidth);
 
             Console.WriteLine(lineDivider);
@@ -84,15 +84,18 @@ public class MovieView
                 // 1. LUÔN LUÔN BẮT ĐƯỢC F8 Ở ĐÂY
                 if (keyInfo.Key == ConsoleKey.F8)
                 {
-                    Console.Clear();
+                    Display.ClearDisplay();
                     await movieController.CreateMovie();
+                    return;
                 }
 
                 // 2. LUÔN LUÔN BẮT ĐƯỢC ESC Ở ĐÂY
                 else if (keyInfo.Key == ConsoleKey.Escape)
                 {
-                    Console.Clear();
+                    // isRunning = false;
+                    Display.ClearDisplay();
                     await ShowMovieOrGenre.Show(provider);
+                    return;
                 }
 
                 // 3. BẮT THAO TÁC NGƯỜI DÙNG BẤM F4 => CHỈNH SỬA PHIM
@@ -130,7 +133,7 @@ public class MovieView
                 if (int.TryParse(inputStt, out int parsedId) && parsedId >= 0 && parsedId < countMovie)
                 {
                     chosenStt = parsedId;
-                    Console.Clear();
+                    Display.ClearDisplay();
 
                     if (action == EnumOption.UPDATE)
                         await movieController.EditMovie(movies[chosenStt.Value]);
@@ -139,7 +142,7 @@ public class MovieView
                     {
                         while (true)
                         {
-                            Console.Clear();
+                            Display.ClearDisplay();
                             Console.ForegroundColor = ConsoleColor.Yellow;
                             Console.Write($"Xác nhận xóa phim: {movies[chosenStt.Value].MovieName} này? (Y/N): ");
                             Console.ResetColor();
@@ -189,15 +192,17 @@ public class MovieView
             // XỬ LÝ NGƯỜI DÙNG NHẤN LẠI F8
             else if (subKey.Key == ConsoleKey.F8)
             {
-                Console.Clear();
+                Display.ClearDisplay();
                 await movieController.CreateMovie();
+                return;
             }
 
             // XỬ LÝ NGƯỜI DÙNG NHẤN ESC
             else if (subKey.Key == ConsoleKey.Escape)
             {
-                Console.Clear();
+                Display.ClearDisplay();
                 await ShowMovieOrGenre.Show(provider);
+                return;
             }
 
             // NẾU NGƯỜI DÙNG NHẬP LAI F4
@@ -213,3 +218,4 @@ public class MovieView
         }
     }
 }
+

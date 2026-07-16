@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 3,
   "targets": {
     "net10.0": {
       "Microsoft.Extensions.DependencyInjection/10.0.9": {
@@ -109,29 +109,30 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\A315\\.nuget\\packages\\": {}
+    "C:\\Users\\Q3-TK-009\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Note-LT\\HN-AAu\\NguyenMinhHai\\BaiTapCsharp\\CinemaBookings\\CinemaBookings\\CinemaBookings.csproj",
+      "projectUniqueName": "D:\\NguyenMinhHai\\BaiTapCsharp\\CinemaBookings\\CinemaBookings\\CinemaBookings.csproj",
       "projectName": "CinemaBookings",
-      "projectPath": "D:\\Note-LT\\HN-AAu\\NguyenMinhHai\\BaiTapCsharp\\CinemaBookings\\CinemaBookings\\CinemaBookings.csproj",
-      "packagesPath": "C:\\Users\\A315\\.nuget\\packages\\",
-      "outputPath": "D:\\Note-LT\\HN-AAu\\NguyenMinhHai\\BaiTapCsharp\\CinemaBookings\\CinemaBookings\\obj\\",
+      "projectPath": "D:\\NguyenMinhHai\\BaiTapCsharp\\CinemaBookings\\CinemaBookings\\CinemaBookings.csproj",
+      "packagesPath": "C:\\Users\\Q3-TK-009\\.nuget\\packages\\",
+      "outputPath": "D:\\NguyenMinhHai\\BaiTapCsharp\\CinemaBookings\\CinemaBookings\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\A315\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Q3-TK-009\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net10.0": {
-          "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {}
         }
@@ -146,11 +147,10 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.300"
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net10.0": {
-        "framework": "net10.0",
         "targetAlias": "net10.0",
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": {
@@ -174,7 +174,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

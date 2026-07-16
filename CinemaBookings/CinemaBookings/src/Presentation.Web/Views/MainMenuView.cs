@@ -136,6 +136,7 @@ public class MainMenuView
             if (keyInfo.Key == ConsoleKey.Escape)
             {
                 await Show(provider);
+                return;
             }
             else
             {
@@ -148,7 +149,7 @@ public class MainMenuView
                         DebugExtensions.dd(keyInfo.KeyChar.ToString());
                         break;
                     case "2":
-                        await ShowCinema.Show();
+                        await ShowCinema.Show(provider);
                         // Console.WriteLine("\n[Admin] Điều hướng sang trang quản lý Lịch chiếu...");
                         break;
                     case "3":

@@ -1,17 +1,15 @@
 
-using System;
 using CinemaBooking.Presentation.Controllers;
-using CinemaBooking.Presentation.Views.Layout;
-using CinemaBooking.Services.Implementations;
-
+using Microsoft.Extensions.DependencyInjection;
 namespace CinemaBooking.Presentation.Views.Layout;
 
 class ShowCinema
 {
     // Khởi tạo service cho controller
-    private static RoomController _roomController = new(new RoomService());
-    public static async Task Show()
+    // private static RoomController _roomController = new(new RoomService());
+    public static async Task Show(IServiceProvider provider)
     {
+        var _roomController = provider.GetRequiredService<RoomController>();
         while (true)
         {
             Console.Clear();
