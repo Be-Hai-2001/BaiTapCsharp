@@ -1,0 +1,15 @@
+D:\NguyenMinhHai\BaiTapCsharp\BaiTap10\bin\Debug\net10.0\BaiTap10.exe
+D:\NguyenMinhHai\BaiTapCsharp\BaiTap10\bin\Debug\net10.0\BaiTap10.deps.json
+D:\NguyenMinhHai\BaiTapCsharp\BaiTap10\bin\Debug\net10.0\BaiTap10.runtimeconfig.json
+D:\NguyenMinhHai\BaiTapCsharp\BaiTap10\bin\Debug\net10.0\BaiTap10.dll
+D:\NguyenMinhHai\BaiTapCsharp\BaiTap10\bin\Debug\net10.0\BaiTap10.pdb
+D:\NguyenMinhHai\BaiTapCsharp\BaiTap10\obj\Debug\net10.0\BaiTap10.GeneratedMSBuildEditorConfig.editorconfig
+D:\NguyenMinhHai\BaiTapCsharp\BaiTap10\obj\Debug\net10.0\BaiTap10.AssemblyInfoInputs.cache
+D:\NguyenMinhHai\BaiTapCsharp\BaiTap10\obj\Debug\net10.0\BaiTap10.AssemblyInfo.cs
+D:\NguyenMinhHai\BaiTapCsharp\BaiTap10\obj\Debug\net10.0\BaiTap10.csproj.CoreCompileInputs.cache
+D:\NguyenMinhHai\BaiTapCsharp\BaiTap10\obj\Debug\net10.0\BaiTap10.sourcelink.json
+D:\NguyenMinhHai\BaiTapCsharp\BaiTap10\obj\Debug\net10.0\BaiTap10.dll
+D:\NguyenMinhHai\BaiTapCsharp\BaiTap10\obj\Debug\net10.0\refint\BaiTap10.dll
+D:\NguyenMinhHai\BaiTapCsharp\BaiTap10\obj\Debug\net10.0\BaiTap10.pdb
+D:\NguyenMinhHai\BaiTapCsharp\BaiTap10\obj\Debug\net10.0\BaiTap10.genruntimeconfig.cache
+D:\NguyenMinhHai\BaiTapCsharp\BaiTap10\obj\Debug\net10.0\ref\BaiTap10.dll
