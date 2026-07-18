@@ -66,10 +66,22 @@ class Program
     #endregion
 
     #region Bài 5 - Tìm tất cả các vị trí
+    static List<int> TimKiemTatCa(int[] mang, int giaTri)
+    {
+        List<int> viTri = new List<int>();
+
+        for (int i = 0; i < mang.Length; i++)
+            if (mang[i] == giaTri) viTri.Add(i);
+
+        return viTri;
+    }
     #endregion
 
     static void Main()
     {
+        int[] matrix = { 2, 5, 8, 5, 9, 5, 12 };
+        int giaTri = 5;
+
         // Bài 3  - Tìm kiếm đối tượng (Min/Max tuỳ chỉnh)
         SanPham[] dsSanPham = new SanPham[3] {
             new SanPham("Áo thun", 150),
@@ -81,7 +93,13 @@ class Program
         Console.WriteLine($"Sản phẩm có giá tiền rẻ nhất là: {cheapest.TenSP} - {cheapest.GiaTien}$");
 
         // Bài 4 - Tìm kiếm nhị phân bằng Đệ quy
-        // int[]
-        Console.WriteLine($"{} nằm ở vị trí thứ {} trong mảng trên");
+        Console.WriteLine($"{giaTri} nằm ở vị trí thứ {TimKiemNhiPhanDeQuy(matrix, giaTri, 0, matrix.Length - 1)} trong mảng trên");
+
+        // Bài 5 - Tìm tất cả các vị trí
+        List<int> viTri = TimKiemTatCa(matrix, giaTri);
+        if (viTri.Count == 0)
+            Console.WriteLine("Mảng rỗng");
+        else
+            Console.WriteLine($"{giaTri} nằm ở vị trí thứ {string.Join(", ", viTri)} trong mảng trên");
     }
 }
